@@ -1,0 +1,65 @@
+body{
+  background-color: gray;
+  color: lightgreen;
+  font-family: Monospace;
+}
+
+h1{
+  color: lightgreen;
+}
+
+h2{
+  font-size: 30px;
+  padding: 0px 0px 0px 10px;
+  margin: 5px 0px 5px 0px;
+}
+
+.outerBox{
+  width: 367px;
+  height: 400px;
+  border-style: solid;
+  border-width: 0px;
+}
+
+.answerBox{
+  border-style: solid;
+  border-width: 2px;
+  margin: 16px;
+  height: 40px;
+  width: 330px;
+}
+
+.invisibleBox{
+  border-style: solid;
+  border-width: 0px;
+  margin: 20px 10px 0px 10px;
+}
+
+.smallerInvisibleBox{
+  border-style: solid;
+  border-width: 0px;
+  margin: 20px 6px 0px 10px;
+  width: 258px;
+  float: left;
+}
+
+button{
+  border-style: solid;
+  border-color: lightgreen;
+  font-size: 30px;
+  color: lightgreen;
+  background-color: transparent;
+  width: 70px;
+  height: 40px;
+  margin: 5px 5px 0px 5px;
+}
+
+.zeroButton{
+  width: 158px;
+}
+
+.equalSign{
+  height: 105px;
+  margin: 25px 18px 0px 5px;
+  float: right;
+}

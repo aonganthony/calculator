@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <div class = "outerBox">
+      <div class = "answerBox">
+        <h2 id = "answer"></h2>
+      </div>
+      <div class = "invisibleBox">
+        <button>C</button>
+        <button>/</button>
+        <button>*</button>
+        <button><-</button>
+      </div>
+      <div class = "invisibleBox">
+        <button onclick = "setNumber(7)">7</button>
+        <button onclick = "setNumber(8)">8</button>
+        <button onclick = "setNumber(9)">9</button>
+        <button>+</button>
+      </div>
+      <div class = "invisibleBox">
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>-</button>
+      </div>
+      <div class = "smallerInvisibleBox">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+      </div>
+        <button class = "equalSign">=</button>
+    <div class = "smallerInvisibleBox">
+        <button class = "zeroButton">0</button>
+        <button>+/-</button>
+      </div>
+    </div>
+    <script src="./calculator.js"></script>
+  </body>
+</html>
